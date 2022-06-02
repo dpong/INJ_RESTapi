@@ -6,7 +6,9 @@ replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alp
 
 replace github.com/btcsuite/btcutil => github.com/btcsuite/btcutil v1.0.2
 
-replace github.com/cosmos/cosmos-sdk => github.com/InjectiveLabs/cosmos-sdk v0.44.5
+replace github.com/cosmos/cosmos-sdk => github.com/InjectiveLabs/cosmos-sdk v0.45.2-inj
+
+replace github.com/CosmWasm/wasmd => github.com/InjectiveLabs/wasmd v0.27.0-inj
 
 require (
 	github.com/InjectiveLabs/sdk-go v1.33.14
